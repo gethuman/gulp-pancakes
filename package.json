@@ -1,0 +1,19 @@
+{
+  "name": "gulp-pancakes",
+  "version": "0.0.1",
+  "description": "Gulp plugin for Pancakes.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gethuman/gulp-pancakes.git"
+  },
+  "author": "Jeff Whelpley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gethuman/gulp-pancakes/issues"
+  },
+  "homepage": "https://github.com/gethuman/gulp-pancakes"
+}
