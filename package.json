@@ -1,19 +1,44 @@
 {
   "name": "gulp-pancakes",
   "version": "0.0.1",
-  "description": "Gulp plugin for Pancakes.js",
-  "main": "index.js",
+  "description": "Gulp plugin for the Pancakes framework",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "homepage": "https://github.com/gethuman/gulp-pancakes",
+  "main": "gulp.pancakes.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/gethuman/gulp-pancakes.git"
   },
-  "author": "Jeff Whelpley",
+  "author": {
+    "name": "Jeff Whelpley",
+    "email": "jeff@gethuman.com",
+    "url": "https://github.com/jeffwhelpley"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gethuman/gulp-pancakes/issues"
   },
-  "homepage": "https://github.com/gethuman/gulp-pancakes"
+  "dependencies": {
+    "through2": "*",
+    "gulp-util": "~2.2.0",
+    "pancakes": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
+    "istanbul": "*",
+    "event-stream": "*",
+    "should": "~2.1.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  }
 }
