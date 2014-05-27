@@ -1,6 +1,6 @@
 {
   "name": "gulp-pancakes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp plugin for the Pancakes framework",
   "keywords": [
     "gulpplugin"

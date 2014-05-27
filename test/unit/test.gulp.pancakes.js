@@ -1,12 +1,19 @@
 /**
  * Unit tests for Pancakes Gulp plugin
  */
+
+/*
 var fs = require('fs');
 var es = require('event-stream');
 var gutil = require('gulp-util');
 var gulpPancakes = require('../../lib/gulp.pancakes.js');
 var chai = require('chai');
 var should = chai.should();
+
+
+//TODO: need to completely refactor this test from scratch
+
+
 
 describe('Unit tests for gulp.pancakes', function () {
 
@@ -22,6 +29,13 @@ describe('Unit tests for gulp.pancakes', function () {
         cwd: 'test/',
         base: 'test/fixtures',
         contents: fs.readFileSync('test/fixtures/flapjack.js')
+    });
+
+    before(function () {
+        gulpPancakes.init({
+            rootDir: __dirname + '/../..',
+            require: require
+        })
     });
 
 	it('should produce angular factory via buffer', function (done) {
@@ -59,3 +73,4 @@ describe('Unit tests for gulp.pancakes', function () {
 		stream.end();
 	});
 });
+*/
