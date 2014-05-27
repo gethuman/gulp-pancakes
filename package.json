@@ -28,7 +28,8 @@
     "through2": "*",
     "gulp-util": "~2.2.0",
     "pancakes": "0.0.2",
-    "lodash": "~2.4.1"
+    "lodash": "~2.4.1",
+    "q": "^1.0.1"
   },
   "devDependencies": {
     "coveralls": "^2.8.0",
