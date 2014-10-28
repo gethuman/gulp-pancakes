@@ -51,7 +51,7 @@ here are some of the options we use at GetHuman:
 
 * transformer (default 'basic') - The name of the transformer that will modify your code files. See the transformer notes below for more details.
 * clientType - The type of client code you are working with
-* ngPrefix - Angular-specific option. Used for angular directives as a prefix
+* prefix - Angular-specific option. Used for angular directives as a prefix
 * ngType - Angular-specific option. The type of Angular module you are creating.
 * appName - Angular-specific option. The name of the app.
 
@@ -115,7 +115,7 @@ pancakes.init({
     require: require,
     preload: ['utils'],
     defaultTransformOptions: {
-        ngPrefix: 'gh',
+        prefix: 'gh',
         clientType: 'ng',
         ngType: 'factory',
         transformer: 'basic',
