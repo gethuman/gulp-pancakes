@@ -1,6 +1,6 @@
 {
   "name": "gulp-pancakes",
-  "version": "0.1.10",
+  "version": "0.1.12",
   "description": "Gulp plugin for the Pancakes framework",
   "keywords": [
     "gulpplugin"
@@ -26,13 +26,13 @@
   },
   "dependencies": {
     "through2": "*",
-    "pancakes": "0.1.12",
+    "pancakes": "0.1.15",
     "lodash": "~2.4.1",
     "q": "^1.0.1"
   },
   "devDependencies": {
     "gulp": "^3.8.10",
-    "taste": "^0.1.10"
+    "taste": "^0.1.12"
   },
   "engines": {
     "node": ">=0.8.0",
