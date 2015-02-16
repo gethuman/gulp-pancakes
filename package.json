@@ -1,6 +1,6 @@
 {
   "name": "gulp-pancakes",
-  "version": "0.1.43",
+  "version": "0.1.44",
   "description": "Gulp plugin for the Pancakes framework",
   "keywords": [
     "gulpplugin"
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "gulp-util": "^3.0.3",
-    "jyt": "^0.1.50",
+    "jyt": "^0.1.51",
     "lodash": "~3.2.0",
     "pancakes": "0.1.47",
     "q": "^1.1.2",
