@@ -26,9 +26,9 @@
   },
   "dependencies": {
     "gulp-util": "^3.0.4",
-    "jyt": "^0.1.59",
+    "jyt": "^0.1.60",
     "lodash": "~3.6.0",
-    "pancakes": "0.1.55",
+    "pancakes": "0.1.56",
     "q": "^1.2.0",
     "through2": "^0.6.3"
   },
