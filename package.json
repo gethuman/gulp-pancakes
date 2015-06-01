@@ -25,17 +25,17 @@
     "url": "https://github.com/gethuman/gulp-pancakes/issues"
   },
   "dependencies": {
-    "gulp-util": "^3.0.4",
-    "jyt": "^0.1.73",
+    "gulp-util": "^3.0.5",
+    "jyt": "^0.1.74",
     "lodash": "~3.9.3",
-    "pancakes": "0.1.74",
+    "pancakes": "0.1.75",
     "q": "^1.4.1",
     "through2": "^0.6.5"
   },
   "devDependencies": {
-    "batter": "0.0.39",
+    "batter": "0.0.40",
     "gulp": "^3.8.11",
-    "taste": "^0.1.65"
+    "taste": "^0.1.66"
   },
   "engines": {
     "node": ">=0.8.0",
