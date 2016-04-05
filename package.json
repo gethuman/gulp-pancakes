@@ -27,15 +27,15 @@
   "dependencies": {
     "gulp-util": "^3.0.7",
     "jyt": "^0.1.113",
-    "lodash": "4.7.0",
-    "pancakes": "^0.1.134",
+    "lodash": "4.8.2",
+    "pancakes": "^0.1.135",
     "q": "^1.4.1",
     "through2": "^2.0.1"
   },
   "devDependencies": {
-    "batter": "0.1.35",
+    "batter": "0.1.36",
     "gulp": "^3.9.1",
-    "taste": "^0.2.28"
+    "taste": "^0.2.29"
   },
   "engines": {
     "node": ">=0.8.0",
