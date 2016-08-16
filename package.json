@@ -26,16 +26,16 @@
   },
   "dependencies": {
     "gulp-util": "^3.0.7",
-    "jyt": "^0.1.115",
-    "lodash": "4.11.1",
-    "pancakes": "^0.1.137",
+    "jyt": "^0.1.125",
+    "lodash": "4.15.0",
+    "pancakes": "^0.1.150",
     "q": "^1.4.1",
     "through2": "^2.0.1"
   },
   "devDependencies": {
-    "batter": "0.1.37",
+    "batter": "0.1.47",
     "gulp": "^3.9.1",
-    "taste": "^0.2.30"
+    "taste": "^0.2.38"
   },
   "engines": {
     "node": ">=0.8.0",
